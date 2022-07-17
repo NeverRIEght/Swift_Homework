@@ -33,13 +33,9 @@ trueSumm = Double(constInt) + Double(constFloat) + constDouble
 
 print("True summ is \(trueSumm)")
 
-var intSumm : Int
-var doubleSumm : Double
-var floatSumm : Float
-
-intSumm = constInt + Int(constDouble) + Int(constFloat)
-doubleSumm = Double(constInt) + constDouble + Double(constFloat)
-floatSumm = Float(constInt) + Float(constDouble) + constFloat
+var intSumm = constInt + Int(constDouble) + Int(constFloat)
+var doubleSumm = Double(constInt) + constDouble + Double(constFloat)
+var floatSumm = Float(constInt) + Float(constDouble) + constFloat
 
 print("Int summ is \(intSumm)")
 print("Double summ is \(doubleSumm)")
